@@ -1,0 +1,33 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: 0;
+}
+body {
+    background-color: #555;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.clock{
+    height: 130px;
+    width: 420px;
+    border: solid black 1px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 20%;
+    font-size: 60px;
+    padding: 10px;
+    background: linear-gradient(45deg,rgb(248, 247, 247),rgb(50, 50, 51));
+}
+#response {
+  text-align: center;
+  margin-top: 420px;
+  transform: translateX(-300px);
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+}
